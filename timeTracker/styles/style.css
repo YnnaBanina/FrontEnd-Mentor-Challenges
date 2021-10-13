@@ -5,11 +5,120 @@
           box-sizing: border-box;
 }
 
-html {
-  font-size: 62.5%;
-}
-
 body {
   font-family: "Rubik", sans-serif;
+}
+
+.container {
+  width: 88%;
+  margin: 2rem auto;
+  gap: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menuCard {
+  background-color: #1c1f4a;
+  border-radius: 2.5rem;
+}
+
+.menuCard .cardReport {
+  background-color: #5847eb;
+  border-radius: 2.5rem;
+  padding: 5.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3rem;
+}
+
+.menuCard .cardReport img {
+  width: 26%;
+  border: 8px solid white;
+  border-radius: 50%;
+}
+
+.menuCard .cardReport .report {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.7rem;
+}
+
+.menuCard .cardReport .report p {
+  color: #b4b8f9;
+  font-size: 2.4rem;
+}
+
+.menuCard .cardReport .report .name {
+  color: white;
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+.menuCard .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4.2rem;
+}
+
+.menuCard .menu .menuLink {
+  color: #6f76c8;
+  font-size: 2.8rem;
+  cursor: pointer;
+}
+
+.menuCard .menu .menuLink:hover {
+  color: white;
+}
+
+.menuCard .menu .menu-active {
+  color: white;
+}
+
+.regularCard {
+  border: 1px solid red;
+  background-color: #ff8c66;
+  width: 100%;
+  border-radius: 2.5rem;
+  background-image: url("../images/icon-work.svg");
+  background-repeat: no-repeat;
+  background-size: 23%;
+  background-position: 92%;
+}
+
+.regularCard .propertyCard {
+  background-color: #1c1f4a;
+  margin-top: 6rem;
+  border-radius: 2.5rem;
 }
 /*# sourceMappingURL=style.css.map */
